@@ -38,7 +38,7 @@ int main(){
 		scanf("%f",&x);
 		printf("Insira o valor de Y: ");
 		scanf("%f",&y);
-		res=x-y;
+		res=x/y;
 	    printf("\na divisao de %.1f e %.1f eh %.1f\n", x, y, res);
 }
 
