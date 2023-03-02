@@ -28,6 +28,8 @@ int main(){
 	
 	scanf("%f",&esc);
 	
+	
+	
 	if(esc == 1){
 		printf("Insira o valor de X: ");
 		scanf("%f",&x);
@@ -37,6 +39,8 @@ int main(){
 	    printf("\na soma de %.1f e %.1f eh %.1f\n", x, y, res);}
 
 
+	
+	
 	else if(esc == 2){
 		printf("Insira o valor de X: ");
 		scanf("%f",&x);
