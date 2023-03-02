@@ -6,7 +6,8 @@ calculadora com as 4 operações básicas em c++
 
 #include <stdlib.h>
 
-int main(){
+int main()
+{
 
         float x,y,res,esc;
 
