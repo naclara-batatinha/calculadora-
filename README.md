@@ -3,18 +3,31 @@ calculadora com as 4 operações básicas em c++
 
 
 #include <stdio.h> 
+
 #include <stdlib.h>
+
 int main(){
-	float x,y,res,esc;
-	while(esc!=5){
-	system("cls");
-	printf("1 - Soma\n");
-	printf("2 - subtracao\n");
+
+        float x,y,res,esc;
+
+        while(esc!=5){
+
+        system("cls");
+
+        printf("1 - Soma\n");
+
+        printf("2 - subtracao\n");
+	
 	printf("3 - divisao\n");
+	
 	printf("4 - multiplicacao\n");
+	
 	printf("5 - sair\n");
+	
 	printf("Escolha sua operacao:");
+	
 	scanf("%f",&esc);
+	
 	if(esc == 1){
 		printf("Insira o valor de X: ");
 		scanf("%f",&x);
