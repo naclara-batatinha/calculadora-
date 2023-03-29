@@ -1,0 +1,80 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    float x, y, res, esc;
+
+    while (esc != 5)
+    {
+
+        system("cls");
+
+        printf("1 - Soma\n");
+
+        printf("2 - subtracao\n");
+
+        printf("3 - divisao\n");
+
+        printf("4 - multiplicacao\n");
+
+        printf("5 - sair\n");
+
+        printf("Escolha sua operacao:");
+
+        scanf("%f", &esc);
+
+        if (esc == 1)
+        {
+            printf("Insira o valor de X: ");
+            scanf("%f", &x);
+            printf("Insira o valor de Y: ");
+            scanf("%f", &y);
+            res = x + y;
+            printf("\na soma de %.1f e %.1f eh %.1f\n", x, y, res);
+        }
+
+        else if (esc == 2)
+        {
+            printf("Insira o valor de X: ");
+            scanf("%f", &x);
+            printf("Insira o valor de Y: ");
+            scanf("%f", &y);
+            res = x - y;
+            printf("\na subtracao de %.1f e %.1f eh %.1f\n", x, y, res);
+        }
+
+        else if (esc == 3)
+        {
+            printf("Insira o valor de X: ");
+            scanf("%f", &x);
+            printf("Insira o valor de Y: ");
+            scanf("%f", &y);
+            res = x / y;
+            printf("\na divisao de %.1f e %.1f eh %.1f\n", x, y, res);
+        }
+
+        else if (esc == 4)
+        {
+            printf("Insira o valor de X: ");
+            scanf("%f", &x);
+            printf("Insira o valor de Y: ");
+            scanf("%f", &y);
+            res = x * y;
+            printf("\na multiplicacao de %.1f e %.1f eh %.1f\n", x, y, res);
+        }
+
+        else if (esc == 5)
+        {
+            exit(0);
+        }
+
+        else
+        {
+            printf("Opcao Nao valida!!!\n");
+        }
+        system("pause");
+    }
+    return 0;
+}
